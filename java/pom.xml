@@ -73,6 +73,7 @@
                     <configurationDirectory>conf</configurationDirectory>
                     <copyConfigurationDirectory>true</copyConfigurationDirectory>
                     <includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
+                    <extraJvmArguments> -ea -Xms256m -Xmx2048m</extraJvmArguments>
                     <assembleDirectory>${project.build.directory}/globesort</assembleDirectory>
                     <programs>
                         <program>
